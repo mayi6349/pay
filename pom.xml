@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.javen205</groupId>
 	<artifactId>IJPay</artifactId>
-	<version>1.1.4</version>
+	<version>1.1.6</version>
 	<packaging>jar</packaging>
 	<name>IJPay</name>
 	<description>Easy Pay Library</description>
@@ -115,6 +115,24 @@
 			<version>3.4</version>
 		</dependency>
 		<!-- 银联必须 -->
+		
+		<!-- 农行必须 -->
+		<dependency>
+			<groupId>com.trustpay</groupId>
+			<artifactId>TrustPayCBPClient</artifactId>
+			<version>3.1.5</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/libs/TrustPayCBPClient-3.1.5.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>com.trustpay</groupId>
+			<artifactId>TrustPayClient</artifactId>
+			<version>3.1.4</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/libs/TrustPayClient-3.1.4.jar</systemPath>
+		</dependency>
+		<!-- 农行必须 -->
+		
 		<!-- okhttp -->
 		<dependency>
 			<groupId>com.squareup.okhttp</groupId>
